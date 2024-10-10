@@ -176,9 +176,9 @@
 |  ✍   |                    项目名称和地址                    |                           项目简介                           |             项目详细介绍（文档、文章、源码地址）            |
 | :--: | :--------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------: |
 |  1  | [Avalonia](https://github.com/AvaloniaUI/Avalonia) | Avalonia是一个强大的框架，使开发人员能够使用.NET创建跨平台应用程序。它使用自己的渲染引擎绘制UI控件，确保在Windows、macOS、Linux、Android、iOS和WebAssembly等不同平台上具有一致的外观和行为。这意味着开发人员可以共享他们的UI代码，并在不同的目标平台上保持统一的外观和感觉。 | https://github.com/AvaloniaUI/Avalonia |
-|  2  | [.NET MAUI](https://github.com/dotnet/maui) | .NET MAUI是一个开源、免费（MIT License）的跨平台框架（支持Android、iOS、macOS 和 Windows多平台运行），是 Xamarin.Forms 的进化版，从移动场景扩展到了桌面场景，并从头重新生成了 UI 控件，以提高性能和可扩展性。 如果以前使用过 Xamarin.Forms 来生成跨平台用户界面，那么你会注意到它与 .NET MAUI 有许多相似之处。 但也有一些差异。 通过使用 .NET MAUI，可使用单个项目创建多平台应用，但如果有必要，可以添加特定于平台的源代码和资源。 .NET MAUI 的主要目的之一是使你能够在单个代码库中实现尽可能多的应用逻辑和 UI 布局。 | https://github.com/dotnet/maui |
-|  3  | [Xamarin](https://github.com/xamarin/Xamarin.Forms) | Xamarin 是一个开放源代码平台，用于通过 .NET 构建适用于 iOS、Android 和 Windows 的新式高性能应用程序。 Xamarin 是一个抽象层，可管理共享代码与基础平台代码的通信。 Xamarin 在提供便利（如内存分配和垃圾回收）的托管环境中运行。 | https://learn.microsoft.com/zh-cn/previous-versions/xamarin/get-started/ |
-|  4  |  |  |  |
+|  2  | [.NET MAUI](https://github.com/dotnet/maui) | .NET MAUI是一个开源、免费（MIT License）的跨平台框架（支持Android、iOS、macOS 和 Windows多平台运行），是 Xamarin.Forms 的进化版，从移动场景扩展到了桌面场景，并从头重新生成了 UI 控件，以提高性能和可扩展性。如果以前使用过 Xamarin.Forms 来生成跨平台用户界面，那么你会注意到它与 .NET MAUI 有许多相似之处。 但也有一些差异。 通过使用 .NET MAUI，可使用单个项目创建多平台应用，但如果有必要，可以添加特定于平台的源代码和资源。.NET MAUI 的主要目的之一是使你能够在单个代码库中实现尽可能多的应用逻辑和 UI 布局。 | https://github.com/dotnet/maui |
+|  3  | [Eto.Forms](https://github.com/picoe/Eto) | Eto.Forms是一个.NET开源、跨平台的桌面和移动应用的统一框架，该框架允许开发者使用单一的UI代码库构建在多个平台上运行的应用程序，并利用各自平台的原生工具包，从而使应用程序在所有平台上看起来和工作都像原生应用一样。 | https://github.com/picoe/Eto |
+|  4  | [Xamarin](https://github.com/xamarin/Xamarin.Forms) | Xamarin 是一个开放源代码平台，用于通过 .NET 构建适用于 iOS、Android 和 Windows 的新式高性能应用程序。 Xamarin 是一个抽象层，可管理共享代码与基础平台代码的通信。 Xamarin 在提供便利（如内存分配和垃圾回收）的托管环境中运行。 | https://learn.microsoft.com/zh-cn/previous-versions/xamarin/get-started/ |
 |  5  |  |  |  |
 |  6  |  |  |  |
 
@@ -1411,13 +1411,14 @@
 |  6  | [ScottPlot](https://github.com/ScottPlot/ScottPlot) | ScottPlot是一个免费、开源（采用MIT许可证）的强大.NET交互式绘图库，能够轻松地实现大型数据集的交互式显示。使用几行代码即可快速创建折线图、柱状图、饼图、散点图等不同类型的图表。 | https://github.com/ScottPlot/ScottPlot |
 |  7  | [ImageSharp](https://github.com/SixLabors/ImageSharp) | ImageSharp是一款全新的、功能齐全的、完全管理的、跨平台的2D图形API。ImageSharp旨在简化图像处理，提供了一个极其强大但简洁易用的API。 | https://github.com/SixLabors/ImageSharp |
 |  8  | [SkiaSharp](https://github.com/mono/SkiaSharp) | SkiaSharp是由Mono团队维护的开源项目，它是基于Google的Skia图形库的.NET跨平台绑定，提供了强大的2D图形绘制和处理功能，适用于多个平台，包括Windows、macOS、Linux、iOS和Android，可用于创建高性能的、可移植的2D图形应用程序。 | https://github.com/mono/SkiaSharp |
-|  9  |  |  |  |
-|  10 |  |  |  |
-|  11 |  |  |  |
+|  9 | [BlazorChartjs](https://github.com/erossini/BlazorChartjs) | BlazorChartjs是一个在Blazor中使用Chart.js的库（支持Blazor WebAssembly和Blazor Server两种模式），它提供了简单易用的组件来帮助开发者快速集成数据可视化图表到他们的 Blazor 应用程序中。 | https://github.com/erossini/BlazorChartjs |
+|  10 | [ChartJs.Blazor](https://github.com/mariusmuntean/ChartJs.Blazor) | ChartJs.Blazor 是一个基于C#和Blazor开发的前端开源图表库，它把ChartJs引入到了Blazor中, 并提供了开箱即用的实现，并且支持了 Client 和 Server 两种模式。 | https://github.com/mariusmuntean/ChartJs.Blazor |
+|  11 | [Blazor-ApexCharts](https://github.com/apexcharts/Blazor-ApexCharts) | 基于ApexCharts.js封装的C#开源免费的Blazor图表库。 | https://github.com/apexcharts/Blazor-ApexCharts |
 |  12 |  |  |  |
 |  13 |  |  |  |
 |  14 |  |  |  |
 |  15 |  |  |  |
+|  16 |  |  |  |
 
 [🔝项目分类](https://github.com/YSGStudyHards/DotNetGuide/blob/main/docs/DotNet/DotNetProjectPicks.md#%E9%A1%B9%E7%9B%AE%E5%88%86%E7%B1%BB%E5%96%84%E7%94%A8ctrlf)
 
@@ -1676,7 +1677,7 @@
 |  ✍   |                项目名称和地址                 |                           项目简介                           |           项目详细介绍（文档、文章、源码地址）            |
 | :--: | :-------------------------------------------: | :----------------------------------------------------------: | :-------------------------------: |
 |  1  | [Dommel](https://github.com/henkmollema/Dommel) | 一个C#开源（MIT License）、免费、简单易用的Dapper扩展类库，帮助.NET开发者使用Dapper的CRUD操作变得更简单。 | https://github.com/henkmollema/Dommel |
-|  2  |  |  |  |
+|  2  | [DapperQueryBuilder](https://github.com/Drizin/DapperQueryBuilder) | Dapper Query Builder旨在通过使用字符串插值和Fluent API来简化动态SQL查询的构建。它使得开发者可以更安全、更便捷地编写和管理数据库查询。 | https://github.com/Drizin/DapperQueryBuilder |
 |  3  |  |  |  |
 |  4  |  |  |  |
 |  5  |  |  |  |
@@ -1790,20 +1791,20 @@
 #### Blazor UI库
 |  ✍   |                项目名称和地址                 |                           项目简介                           |           项目详细介绍（文档、文章、源码地址）            |
 | :--: | :-------------------------------------------: | :----------------------------------------------------------: | :-------------------------------: |
-|  1 | [DevExpress UI for Blazor](https://github.com/DevExpress/Blazor) | DevExpress UI for Blazor附带了原生和高性能的UI组件，包括Grid、Pivot Grid、Excel、Charts和Data Editor。这些组件可以帮助您为Blazor Server和Blazor WebAssembly托管模型创建直观和精致的用户体验。 | https://github.com/DevExpress/Blazor |
-|  2 | [BlazorChartjs](https://github.com/erossini/BlazorChartjs) | BlazorChartjs是一个在Blazor中使用Chart.js的库（支持Blazor WebAssembly和Blazor Server两种模式），它提供了简单易用的组件来帮助开发者快速集成数据可视化图表到他们的 Blazor 应用程序中。 | https://github.com/erossini/BlazorChartjs |
-|  3 | [ChartJs.Blazor](https://github.com/mariusmuntean/ChartJs.Blazor) | ChartJs.Blazor 是一个基于C#和Blazor开发的前端开源图表库，它把ChartJs引入到了Blazor中, 并提供了开箱即用的实现，并且支持了 Client 和 Server 两种模式。 | https://github.com/mariusmuntean/ChartJs.Blazor |
-|  4 | [Blazor-ApexCharts](https://github.com/apexcharts/Blazor-ApexCharts) | 基于ApexCharts.js封装的C#开源免费的Blazor图表库。 | https://github.com/apexcharts/Blazor-ApexCharts |
-|  5 | [BlazorBootstrap](https://github.com/vikramlearning/blazorbootstrap) | 企业级Blazor Bootstrap组件库，基于Blazor和Bootstrap CSS框架构建。 | https://github.com/vikramlearning/blazorbootstrap |
-|  6  | [Ant Design Blazor](https://github.com/ant-design-blazor/ant-design-blazor) | Ant Design Blazor是一套基于Ant Design和Blazor的开源（MIT License）、免费的企业级组件库（喜欢Ant Design风格的同学推荐使用）。 | https://antblazor.com/zh-CN/docs/introduce |
-|  7  | [MatBlazor](https://github.com/SamProf/MatBlazor) | MatBlazor是一套基于Material Design规范实现的Blazor和Razor通用组件库。 | https://github.com/SamProf/MatBlazor |
-|  8  | [BootstrapBlazor](https://gitee.com/LongbowEnterprise/BootstrapBlazor) | BootstrapBlazor是一套基于 Bootstrap 和 Blazor 的企业级组件库，可以认为是 Bootstrap 项目的 Blazor 版实现。基于 Bootstrap 样式库精心打造，并且额外增加了 100 多种常用的组件，为您快速开发项目带来非一般的感觉（喜欢Bootstrap风格的同学推荐使用）。 | https://gitee.com/LongbowEnterprise/BootstrapBlazor |
-|  9  | [MudBlazor](https://github.com/MudBlazor/MudBlazor) | MudBlazor是一个基于Material Design的Blazor组件框架，注重易用性和清晰的结构。它非常适合想要快速构建Web应用程序的 .NET 开发人员，无需费力地处理 CSS 和 JavaScript。由于 MudBlazor 完全使用C#编写，因此您可以自由地调整、修复或扩展该框架。文档中有大量示例代码，使理解和学习 MudBlazor 非常容易。 | https://mudblazor.com/docs/overview |
-|  10  | [Blazorise](https://github.com/Megabit/Blazorise) | Blazorise 是用于Blazor的 UI 组件库，支持使用Bootstrap、Tailwind、Bulma、Ant Design 和 Material 等 CSS 框架，可用于构建响应式的单页 Web 应用程序。 | https://blazorise.com/docs |
-|  11 | [Microsoft Fluent UI Blazor](https://github.com/microsoft/fluentui-blazor) | Microsoft Fluent UI Blazor是一个基于Blazor的组件库，提供了一系列的UI组件以及Fluent UI的设计系统。该库可以帮助开发人员快速构建现代化的 Web 应用程序，并且与 Blazor 技术相结合，可以实现高效而灵活的单页应用程序开发。 | https://www.fluentui-blazor.net/ |
-|  12 | [Radzen Blazor](https://github.com/radzenhq/radzen-blazor) | Radzen Blazor 是一个包含70多个免费的原生 Blazor UI 组件的集合，其中包括 DataGrid、Scheduler、Charts 等功能强大的组件，并提供了丰富的主题样式，包括 Material Design 和 FluentUI。可以将 Radzen Blazor 视为一个用于构建 Blazor 应用程序的 UI 框架，它提供了一系列预构建的组件和工具，帮助开发人员快速搭建和定制自己的应用程序界面。 | https://github.com/radzenhq/radzen-blazor |
-|  13 | [MASA.Blazor](https://github.com/masastack/MASA.Blazor)| 基于Material设计规范和BlazorComponent的交互能力提供标准的基础组件库。提供如布局、弹框标准、Loading、全局异常处理等标准场景的预置组件。从更多实际场景出发，满足更多用户和场景的需求，最大的减少开发者的时间成本。缩短开发周期提高开发效率。 | https://docs.masastack.com/blazor/getting-started/installation |
-|  14 | [BlazorStrap](https://github.com/chanan/BlazorStrap) | BlazorStrap是一个基于 Bootstrap 的 Blazor 的 UI 组件库，BlazorStrap的组件也支持响应式布局、主题定制以及多语言支持等功能，可以帮助开发者快速搭建出美观、易用的 Web 应用程序。 | https://getbootstrap.com/docs/5.1/getting-started/introduction/ |
+|  1 | [BlazorBootstrap](https://github.com/vikramlearning/blazorbootstrap) | 企业级Blazor Bootstrap组件库，基于Blazor和Bootstrap CSS框架构建。 | https://github.com/vikramlearning/blazorbootstrap |
+|  2  | [Ant Design Blazor](https://github.com/ant-design-blazor/ant-design-blazor) | Ant Design Blazor是一套基于Ant Design和Blazor的开源（MIT License）、免费的企业级组件库（喜欢Ant Design风格的同学推荐使用）。 | https://antblazor.com/zh-CN/docs/introduce |
+|  3  | [MatBlazor](https://github.com/SamProf/MatBlazor) | MatBlazor是一套基于Material Design规范实现的Blazor和Razor通用组件库。 | https://github.com/SamProf/MatBlazor |
+|  4  | [BootstrapBlazor](https://gitee.com/LongbowEnterprise/BootstrapBlazor) | BootstrapBlazor是一套基于 Bootstrap 和 Blazor 的企业级组件库，可以认为是 Bootstrap 项目的 Blazor 版实现。基于 Bootstrap 样式库精心打造，并且额外增加了 100 多种常用的组件，为您快速开发项目带来非一般的感觉（喜欢Bootstrap风格的同学推荐使用）。 | https://gitee.com/LongbowEnterprise/BootstrapBlazor |
+|  5  | [MudBlazor](https://github.com/MudBlazor/MudBlazor) | MudBlazor是一个基于Material Design的Blazor组件框架，注重易用性和清晰的结构。它非常适合想要快速构建Web应用程序的 .NET 开发人员，无需费力地处理 CSS 和 JavaScript。由于 MudBlazor 完全使用C#编写，因此您可以自由地调整、修复或扩展该框架。文档中有大量示例代码，使理解和学习 MudBlazor 非常容易。 | https://mudblazor.com/docs/overview |
+|  6  | [Blazorise](https://github.com/Megabit/Blazorise) | Blazorise 是用于Blazor的 UI 组件库，支持使用Bootstrap、Tailwind、Bulma、Ant Design 和 Material 等 CSS 框架，可用于构建响应式的单页 Web 应用程序。 | https://blazorise.com/docs |
+|  7 | [Microsoft Fluent UI Blazor](https://github.com/microsoft/fluentui-blazor) | Microsoft Fluent UI Blazor是一个基于Blazor的组件库，提供了一系列的UI组件以及Fluent UI的设计系统。该库可以帮助开发人员快速构建现代化的 Web 应用程序，并且与 Blazor 技术相结合，可以实现高效而灵活的单页应用程序开发。 | https://www.fluentui-blazor.net/ |
+|  8 | [Radzen Blazor](https://github.com/radzenhq/radzen-blazor) | Radzen Blazor 是一个包含70多个免费的原生 Blazor UI 组件的集合，其中包括 DataGrid、Scheduler、Charts 等功能强大的组件，并提供了丰富的主题样式，包括 Material Design 和 FluentUI。可以将 Radzen Blazor 视为一个用于构建 Blazor 应用程序的 UI 框架，它提供了一系列预构建的组件和工具，帮助开发人员快速搭建和定制自己的应用程序界面。 | https://github.com/radzenhq/radzen-blazor |
+|  9 | [MASA.Blazor](https://github.com/masastack/MASA.Blazor)| 基于Material设计规范和BlazorComponent的交互能力提供标准的基础组件库。提供如布局、弹框标准、Loading、全局异常处理等标准场景的预置组件。从更多实际场景出发，满足更多用户和场景的需求，最大的减少开发者的时间成本。缩短开发周期提高开发效率。 | https://docs.masastack.com/blazor/getting-started/installation |
+|  10 | [BlazorStrap](https://github.com/chanan/BlazorStrap) | BlazorStrap是一个基于 Bootstrap 的 Blazor 的 UI 组件库，BlazorStrap的组件也支持响应式布局、主题定制以及多语言支持等功能，可以帮助开发者快速搭建出美观、易用的 Web 应用程序。 | https://getbootstrap.com/docs/5.1/getting-started/introduction/ |
+|  11 | [DevExpress UI for Blazor](https://github.com/DevExpress/Blazor) | DevExpress UI for Blazor附带了原生和高性能的UI组件，包括Grid、Pivot Grid、Excel、Charts和Data Editor。这些组件可以帮助您为Blazor Server和Blazor WebAssembly托管模型创建直观和精致的用户体验。 | https://github.com/DevExpress/Blazor |
+|  12 | [BlazorFluentUI](https://github.com/BlazorFluentUI/BlazorFluentUI) | BlazorFluentUI 是一个将 Fluent UI React 组件和样式（前身为 Office Fabric）移植到 Blazor 平台的项目。它允许开发者在 Blazor 应用中轻松集成和使用 Fluent UI 的一系列UI组件，从而提升应用的用户界面体验。 | https://github.com/BlazorFluentUI/BlazorFluentUI |
+|  13 | [Element-Blazor](https://github.com/Element-Blazor/Element-Blazor) | 基于 Element 和 Blazor WebAssembly 的 Web UI 库。 | https://github.com/Element-Blazor/Element-Blazor |
+|  14 |  |  |  |
 |  15 |  |  |  |
 |  16 |  |  |  |
 |  17 |  |  |  |
